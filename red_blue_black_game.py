@@ -13,7 +13,7 @@ class Game:
                 break
             if user_input not in options:
                 continue
-            random_number = random.randint(0,2)
+            random_number = random.randint(0,3)
             computer_pick = options[random_number]
             print('computer_pick', computer_pick +'.')
 
